@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ }
+ h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+ }
+ button{
+    margin-top: 10px;
+    font-size: 4rem;
+    padding: 30px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(47, 47, 236, 0.712);
+    cursor: pointer;
+ }
+ .greentext {
+   color: green;
+ }
+ .redtext{
+   color: red;
+ }
+ .bluetext{
+   color: blue;
+ }
+ #choice{
+    font-size: 40px;
+    font-weight: bold;
+ }
+ #result{
+    font-size: 35px;
+ }
+ #score{
+    margin-top: 40px;
+    font-size: 27px;
+ }

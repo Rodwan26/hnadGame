@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hand.css">
+    <title>Document</title>
+</head>
+<body>
+  <h3>rock - paper - scissors</h3>
+  <div id="box">
+    <button id="rock" onclick="choice('Rock')">👊</button>
+    <button id="scissors" onclick="choice('Scissors')">✌</button>
+    <button id="paper" onclick="choice('Paper')">✋</button>
+  </div>
+   <div id="choice">
+    <div id="playerchoice">
+        Player: <span id="player"></span>
+    </div>
+    <div id="computerchoice">
+        Computer: <span id="Computer"></span>
+    </div>
+   </div>
+   <div id="result">
+   </div>
+   <div id="score">
+    <div id="playerscore">player score:</div>
+    <div id="computerscore">Computer Score:</div>
+   </div>
+   <script src="hand.js"></script>
+</body>
+</html>
